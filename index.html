@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Lesson 9</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style9.css">
+
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="header-top">
+			<ul class="container">
+
+				<li>
+					<a href="#">Login</a>
+				</li>
+
+				<li>
+					<a href="#">Cart</a>
+				</li>
+
+				<li class="phone-number">
+					<a href="tel:+380991234567">+380991234567</a>
+				</li>
+
+			</ul>
+		</div>
+
+		<div class="header-main">
+			<div class="container">
+				<div class="logo">
+					<a href="/">
+						<img src="images/logolion.png" alt="Site name">
+					</a>
+				</div>
+				<form action="" class="search-form">
+					<input type="search" name="search" placeholder="Search...">
+					<input type="submit" name="submit" value="Search">
+				</form>
+			</div>
+		</div>
+		<nav class="navigation">
+            <div class="container">
+                <input type="checkbox" name="menu" class="mobile-menu" id="mobile-menu">
+                <label for="mobile-menu" class="mobile-menu"><img src="images/menu.svg" alt="menu icon"></label>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Bestsellers</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+	<div class="container content">
+		<aside>
+			<h4 class="title24 text-center">Categories</h4>
+			<nav class="sidebar-navigation">
+				<ul>
+					<li><a href="#">Clothes</a></li>
+					<li><a href="#">Shoes </a></li>
+					<li><a href="#">Accessorize</a></li>
+					<li><a href="#">Coats</a></li>
+					<li><a href="#">Sale</a></li>
+				</ul>
+			</nav>
+			<div class="bestsellers">
+				<h4 class="title24 text-center">Bestsellers</h4>
+				<ul>
+					<li><a href="#"><img src="images/dress.jpg" alt="Dress1"></a></li>
+					<li><a href="#"><img src="images/dress2.jpg" alt="Dress2"></a></li>
+					<li><a href="#"><img src="images/dress3.jpg" alt="Dress3"></a></li>
+				</ul>
+			</div>
+		</aside>
+		<main class="main">
+			<div class="product">
+				<div class="product__image">
+					<img src="images/suit.jpg" alt="Item name">
+				</div>
+				<div class="product__info">
+					<h1 class="product__name"> Men Suit </h1>
+					<div class="product__price">200$</div>
+					<form action="/" class="product__variant">
+						<div class="product__colour">
+							<h6>Choose colour:</h6>
+							<ul>
+								<li><input type="radio" name="colour" value="black" id="black"> <label
+										style="background-color:#000" for="black"></label></li>
+								<li><input type="radio" name="colour" value="white" id="blue"> <label
+										style="background-color:#0000FF" for="blue"></label></li>
+								<li><input type="radio" name="colour" value="green" id="gray"> <label
+										style="background-color:#808080" for="gray"></label></li>
+								<li><input type="radio" name="colour" value="gray" id="green"> <label
+										style="background-color:#ccc" for="green"></label></li>
+							</ul>
+						</div>
+						<input type="submit" class="button" value="Add to cart" name="add_to_cart">
+					</form>
+				</div>
+			</div>
+
+			<div class="container specification">
+				<h3> Specification </h3>
+
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing
+					elit, sed do eiusmod tempor incididunt ut labore
+					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+					fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+					sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			</div>
+			<div class="container tables">
+				<h3>Сonfiguration:</h3>
+				<table>
+					<tr>
+						<th>Category</th>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</td>
+					</tr>
+					<tr>
+						<th>Category</th>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</td>
+					</tr>
+					<tr>
+						<th>Category</th>
+						<td>Lorem ipsum dolor sit</td>
+					</tr>
+					<tr>
+						<th>Category</th>
+						<td>Lorem ipsum dolor sit amet</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="block float">
+				<div class="box"> Быстрая доставка</div>
+				<div class="box"> Удобная оплата</div>
+				<div class="box"> Гарантия 24 месяца</div>
+			</div>
+		</main>
+	</div>
+	<footer class="footer">	
+	
+		
+		<ul class="links">
+			<h3> LINKS </h3>
+			<li><a href="#">Products for woman</a></li>
+			<li><a href="#">Products for men</a></li>
+			<li><a href="#">Products for kids</a></li>
+			<li><a href="#">About us</a></li>
+		</ul>
+		
+		
+		<ul class="contacts">
+			<h3> CONTACT US </h3>
+			<li>Adress</li>
+			<li>Telephone number</li>
+			<li>Email adress</li> 
+		</ul>
+		
+		
+		<ul class="social-media">
+			<h3> STAY IN TOUCH </h3>
+			<li><a href="#"><img src="images/facebook.png" alt="Facebook"></a></li>
+			<li><a href="#"><img src="images/instagram.png" alt="Instagram"></a></li>
+		</ul>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
